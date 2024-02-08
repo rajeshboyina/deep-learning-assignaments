@@ -103,7 +103,7 @@ wCam,hCam=1280,720
 cap=cv2.VideoCapture(0)
 cap.set(3,wCam)
 cap.set(4,hCam)
-folderPath='counting_fingers_enlarger'
+folderPath='fingers_images'
 myList=os.listdir(folderPath)
 myList=sorted(myList)
 print(myList)
